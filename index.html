@@ -11,51 +11,81 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Common Website Features</title>
+  <title>Blooming April</title>
 </head>
 <body>
-  <!-- Hero banner HTML -->
+  <!-- Hero banner -->
   <section class="hero-container">
     <div class="remove-assignment-content">
         <div class="hero-text">
-          <h1>Calgary Dessert Fair</h1>
-          <p class="subline">2023.02.11 BMO Centre</p>
-          <button class="main-button">Get Tickets</button>
+          <h1>Blooming April!</h1>
+          <button class="sub-button">Booking</button>
+          <button class="sub-button">Customize Your Bouquets</button>
         </div>
       </div>
   </section>
-  <!-- content HTML -->
+
+  <!-- content -->
   <section class="container content-container">
     <div class="content-box">
       <div class="content-text">
-      <h1>Meet Your Favourite Desserts</h1>
-      <p>2023.02.11 BMO Centre</p>
-      <button class="sub-button">Booth List</button>
+      <h2>ABOUT US</h2>
+      <p>Blooming April proudly provides customization services for bouquets and flower arrangements for your special ones as Calgary's local flower shop.</p>
+      <button class="sub-button">Learn More</button>
       </div>
     </div>
   </section>
-  <!-- accordion HTML -->
+
+  <!-- Card -->
+  <section class="container card-section">
+      <ul class="card-container">
+        <li class="card">
+          <img src="assets/1.jpg" alt="White small flowers are shown as a close-up shot with faint blue sky background.">
+          <div class="card-content">
+            <h3 class="subheader">
+              Arrangements
+            </h3>
+          </div>
+        </li>
+        <li class="card">
+          <img src="assets/2.jpg" alt="Pink cosmoses are shown with light blue sky and light green leaves.">
+          <div class="card-content">
+            <h3 class="subheader">
+              Weddings
+            </h3>
+          </div>
+        </li>
+        <li class="card">
+          <img src="assets/3.jpg" alt="Close-up shot of orange pink tulips">
+          <div class="card-content">
+            <h3 class="subheader">
+              DIY Flowers
+            </h3>
+          </div>
+        </li>
+      </ul>
+  </section>
+
+  <!-- Embeded Video -->
+  <section class="container video">
+      <iframe class="youtube" 
+      src="https://www.youtube.com/embed/fpq7DejcJwM?si=x8hrTeVm2ov73T_B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      </iframe>
+  </section>
+
+  <!-- accordion -->
   <section class="container accordion-container">
     <div class="accordion-box">
-      <h1>Frequently Asked Questions</h1>
-      <button class="accordion">What is Calgart Desseert Fair?</button>
+      <i class="fas fa-question"></i>
+      <h2>Frequently Asked Questions</h2>
+      <button class="accordion">When does the flower arrangement one-day class start?</button>
         <div class="panel">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus, nunc finibus rutrum semper, augue purus dapibus quam, vel luctus ex ex a neque. Maecenas maximus nulla turpis, at sollicitudin magna iaculis quis. Curabitur ullamcorper tellus tortor, in maximus massa cursus vel. Ut vitae urna mollis, pellentesque metus ac, hendrerit lectus. Aliquam felis libero, ultricies eu risus id, pulvinar porta ante. Quisque maximus libero diam, in ultrices eros mattis eu. Etiam luctus eu dolor nec gravida.</p>
         </div>
 
-      <button class="accordion">Is it possible to bring guests?</button>
+      <button class="accordion">Price of the one-day class for flower arrangement?</button>
         <div class="panel">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus, nunc finibus rutrum semper, augue purus dapibus quam, vel luctus ex ex a neque. Maecenas maximus nulla turpis, at sollicitudin magna iaculis quis. Curabitur ullamcorper tellus tortor, in maximus massa cursus vel. Ut vitae urna mollis, pellentesque metus ac, hendrerit lectus.</p>
-        </div>
-
-      <button class="accordion">How do I apply?</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus, nunc finibus rutrum semper, augue purus dapibus quam, vel luctus ex ex a neque. Maecenas maximus nulla turpis, at sollicitudin magna iaculis quis. Curabitur ullamcorper tellus tortor, in maximus massa cursus vel. Ut vitae urna mollis, pellentesque metus ac, hendrerit lectus.</p>
-        </div>
-
-        <button class="accordion">What are entry requirements?</button>
-        <div class="panel">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla cursus, nunc finibus rutrum semper, augue purus dapibus quam, vel luctus ex ex a neque. Maecenas maximus nulla turpis.</p>
         </div>
 
         <button class="accordion">Is it free to park?</button>
@@ -82,13 +112,14 @@
       </script>
 
   </section>
-  <!-- Remove and add footer HTML -->
+
+  <!-- footer -->
   <section class="footer-container">
     <div class="footer-content">
       <div class="col1">
-      <h2>Contact Info</h2>
+      <h3>Contact Info</h3>
       <ul>
-        <li><a href="#">calgaryfakefair@example.com</a></li>
+        <li><a href="#">bloomingapril@example.com</a></li>
         <li>(403) 123 4567</li>
         <li>Fake address SE Calgary, AB, Canada</li>
         <div class="sns">
@@ -99,7 +130,7 @@
       </ul>
       </div>
       <div class="col2">
-      <h2>Links</h2>
+      <h3>Links</h3>
       <ul>
         <li><a href="#">Terms of Use</a></li>
         <li><a href="#">Privacy Policy</a></li>
@@ -108,7 +139,7 @@
       </div>
 
       <div class="col3">
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.7386711732843!2d-114.05889698752026!3d51.03944717159276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717004145385dd%3A0x124c0d0e3b3d4103!2sBMO%20Centre!5e0!3m2!1sen!2sca!4v1709862272628!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20065.808264871608!2d-114.06806749999998!3d51.04891405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716ffb86200597%3A0x10c42af1e7df241e!2sDowntown%2C%20Calgary%2C%20AB!5e0!3m2!1sen!2sca!4v1711077083735!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </div>
     <div class="year">
@@ -117,7 +148,7 @@
       <span id="copyright">
           <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
       </span>
-      Calgary Desserts Fair
+      Blooming April
     </div>
   </section>
 </body>
